@@ -1,0 +1,45 @@
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.searchResult {
+  height: 350px;
+  overflow: auto;
+}
+.avatarDetail {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 2;
+}
+.coverAvatar {
+}
+.infomationDetail {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.friendBtn {
+  &:hover {
+    background-color: #4b098576;
+    cursor: pointer;
+  }
+}
+.avatarNotify {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.defaultAvatarSelected {
+  border-color: #86b7fe;
+  outline: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.3rem rgb(13 110 253 / 25%);
+}
+.inputNameGroup {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

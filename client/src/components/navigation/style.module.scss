@@ -1,0 +1,80 @@
+.btn-user::after {
+  display: none;
+}
+.btn-user {
+  width: 50px;
+  height: 50px;
+  border: white 1px solid;
+  border-radius: 50%;
+}
+.btnActive {
+  background-color: #495057;
+}
+.logoutBtn {
+  color: rgba(209, 34, 34, 0.876);
+  padding: 5px 10px;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+.user-menu {
+  width: 300px;
+}
+.user-infomation {
+  &:hover {
+    background-color: #3c4043;
+  }
+}
+.optionBtn {
+  padding: 5 10;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.hoverOptionBtn {
+  padding: 5 0;
+  &:hover {
+    background-color: rgba(180, 176, 176, 0.89);
+  }
+}
+
+.avatarDetail {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 2;
+}
+.infomationDetail {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+label {
+  cursor: pointer;
+  /* Style as you please, it will become the visible UI component. */
+}
+
+.uploadPhoto {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.cameraIcon {
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  width: 24px;
+  left: 53%;
+  background-color: rgb(221, 216, 216);
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.number-Request {
+  font-size: 15px;
+  border-radius: 50%;
+  bottom: 2px;
+  left: 35px;
+  position: absolute;
+}

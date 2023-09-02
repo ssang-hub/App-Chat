@@ -1,0 +1,38 @@
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.header {
+  background-color: rgba(40, 32, 48, 0.33);
+  color: aliceblue;
+}
+.btn-header-chat {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10%;
+  &:hover {
+    background-color: rgb(171, 167, 167);
+    cursor: pointer;
+  }
+}
+.message-send {
+  float: left;
+}
+.message-receive {
+  float: right;
+  // display: flex;
+}
+
+.stickerSize {
+  max-height: 170px;
+  min-width: 100px;
+}
+.image {
+  max-width: 400px;
+  min-width: 200px;
+  &:hover {
+    cursor: pointer;
+  }
+}

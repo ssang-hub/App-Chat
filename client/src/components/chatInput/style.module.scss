@@ -1,0 +1,68 @@
+.btnInput {
+  background-color: #19123b;
+  &:hover {
+    color: rgba(96, 249, 249, 0.741);
+  }
+  color: white;
+}
+.inputStyle {
+  width: 90%;
+  &:focus {
+    border: none;
+    box-shadow: none;
+    background-color: #19123b;
+    color: wheat;
+  }
+  background-color: #19123b;
+  color: wheat;
+  margin-bottom: 10;
+}
+.btnSubmit {
+  color: white;
+  &:hover {
+    color: rgba(96, 249, 249, 0.741);
+  }
+  &:focus {
+    border: none;
+    box-shadow: none;
+  }
+}
+.inputV2 {
+  background-color: #19123b;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  // color: white;
+}
+.sticker-box {
+  position: absolute;
+  bottom: 15%;
+  left: 30%;
+  background-color: white;
+  border-radius: 10%;
+}
+.sticktitle {
+  width: 300px;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.stickerImageList {
+  max-width: 70px;
+  max-height: 70px;
+}
+.stickerContainer {
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+.stickerItemImage {
+  max-width: 100px;
+  max-height: 100px;
+}
